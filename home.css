@@ -1,0 +1,297 @@
+html, body {
+    max-width: 100%;
+    margin: 0 auto;
+} /* prevents horizontal scrolling */
+
+
+.image img{
+    width: 1425px;
+    height: 1300px;
+    position: fixed;
+    top: -40px;
+    left: 0px;
+    
+}
+
+#contentframe {
+    position:relative;
+    left: 400px;
+
+}
+
+.imageText {   /* American flag company name text */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    font-size: 50px;
+    color: cyan;
+    position: fixed;
+    top: -40px;
+    left: 0px;
+  
+
+}
+
+.main { /* center div */
+    position: absolute;
+    overflow-x: hidden;
+    left: 0;
+    background-color:darkolivegreen;
+    width: 1425px;
+    height: 2400px; 
+    top: 520px;
+    
+
+}
+
+.AboutUs {   /* About us section */
+    position: sticky;
+    left: 0;
+    background-color: white;
+    width: 1425px;
+    height: 1200px; 
+    top: 1200px;
+
+}
+
+.contact {   /* About us section */
+    position: absolute;
+    left: 0;
+    background-color:darkcyan;
+    width: 1425px;
+    height: 700px; 
+    bottom: 0px;
+
+}
+#furcoats {     /*fur coats text */
+    position: absolute;
+    width: 200px;
+    left: 70px;
+    height: 300px; 
+    top: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: cyan;
+    
+}
+
+#about {     /*about us header */
+    font-style: oblique;
+    color:cornflowerblue;
+    text-decoration: underline;
+    text-decoration-color:darkred;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+    
+}
+#contactTitle {     /*contact us header */
+    font-style: oblique;
+    color:coral;
+    text-decoration: underline;
+    text-decoration-color:darkred;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+
+#cleaning {  /*fur storage and cleaning  text */
+    position: absolute;
+    width: 200px;
+    left: 515px;
+    height: 300px; 
+    top: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: cyan;
+
+}
+
+#backinfo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative; 
+    left:80px; 
+    top:2px;
+
+
+}
+
+#contactinfo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative; 
+    left: 40px; 
+    bottom: 500px;
+
+}
+
+#location {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative; 
+    left: 1100px; 
+    bottom: 900px;
+
+}
+
+#blankets {  /* Fur Blankets  text */
+    position: absolute;
+    width: 200px;
+    left: 950px;
+    height: 300px; 
+    top: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: cyan;
+
+}
+
+#accesories {  /* Fur accesories text */
+    position: absolute;
+    width: 200px;
+    left: 70px;
+    height: 300px; 
+    top: 1050px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: cyan;
+
+}
+
+#vest {  /* Fur vest text */
+    position: absolute;
+    width: 200px;
+    left: 515px;
+    height: 300px; 
+    top: 1050px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: cyan;
+
+}
+
+#plates {  /* Fur plates text */
+    position: absolute;
+    width: 200px;
+    left: 950px;
+    height: 300px; 
+    top: 1050px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: cyan;
+
+}
+
+
+img[alt="photo1"] {
+    border: 10px solid brown;
+    left: 60px;
+    position: absolute;
+    width: 200px;
+    height: 300px; 
+    top: 200px;
+
+}
+
+img[alt="photo2"] {
+    border: 10px solid brown;
+    left: 500px;
+    position: absolute;
+    width: 200px;
+    height: 300px; 
+    top: 200px;
+
+}
+
+img[alt="photo3"] {
+    border: 10px solid brown;
+    left: 940px;
+    position: absolute;
+    width: 200px;
+    height: 300px; 
+    top: 200px;
+
+}
+
+img[alt="photo4"] {
+    border: 10px solid brown;
+    left: 60px;
+    position: absolute;
+    width: 200px;
+    height: 300px; 
+    top: 750px;
+
+}
+
+img[alt="photo5"] {
+    border: 10px solid brown;
+    left: 500px;
+    position: absolute;
+    width: 200px;
+    height: 300px; 
+    top: 750px;
+
+}
+img[alt="photo6"] {
+    border: 10px solid brown;
+    left: 940px;
+    position: absolute;
+    width: 200px;
+    height: 300px; 
+    top: 750px;
+
+}
+
+img[alt="photo7"] {
+    border: 10px solid brown;
+    left: 500px;
+    position: absolute;
+    width: 240px;
+    height: 400px; 
+    top: 70px;
+
+}
+
+img[alt="photo8"] {
+    border: 10px solid brown;
+    left: 800px;
+    position: absolute;
+    width: 240px;
+    height: 400px; 
+    top: 70px;
+
+}
+
+img[alt="photo9"] {
+    border: 10px solid brown;
+    left: 1100px;
+    position: absolute;
+    width: 240px;
+    height: 400px; 
+    top: 70px;
+
+}
+
+img[alt="photo10"] {
+    border: 10px solid brown;
+    left: 100px;
+    position: absolute;
+    width: 170px;
+    height: 200px; 
+    top: 230px;
+
+}
+
+
+#maintext {  /* text in main */
+    font-style: oblique;
+    color: cyan;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
